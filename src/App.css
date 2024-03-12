@@ -1,0 +1,14 @@
+main {
+  min-height:100vh;
+}
+
+.card{
+  margin:10px;
+  background:lightblue;
+  padding:10px;
+
+}
+
+.card:nth-child(3){
+  width:50%;
+}
