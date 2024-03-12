@@ -4,6 +4,7 @@ import data from "./data.json";
 
 export default function App() {
   const [msgData, setMsgData] = useState(data);
+
   useEffect(() => {
     const newData = {};
     data.forEach((item) => {
